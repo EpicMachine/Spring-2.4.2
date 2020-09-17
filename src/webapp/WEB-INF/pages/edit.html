@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link href="../styles/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../styles/style.css" rel="stylesheet" type="text/css"/>
     <meta charset="UTF-8">
     <title>Editing</title>
 </head>
@@ -13,6 +13,9 @@
         <p>User name: <input type="text" th:field="*{username}"/></p>
         <p>Password: <input type="text" th:field="*{password}"/></p>
         <p><input type="submit" value="Submit"/></p>
+    </form>
+    <form action="/logout" method="post" class="logout">
+        <button type="submit">Logout</button>
     </form>
 </body>
 </html>

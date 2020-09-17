@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="spring-security:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/spring_security_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/Spring-2.4.2</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
